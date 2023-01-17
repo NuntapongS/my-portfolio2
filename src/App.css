@@ -1,6 +1,5 @@
 .portfolio-body {
   background-color: var(--main-color);
-  color: #fff;
   display: flex;
   flex-direction: column;
   gap: 32px;
