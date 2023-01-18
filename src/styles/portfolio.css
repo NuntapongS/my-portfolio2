@@ -1,22 +1,32 @@
 .landing1 {
     display: flex;
     min-height: 800px;
-    justify-content: center;
     color: #EE5E7C;
     padding-top: 5%;
     background-color: black;
     font-weight: bold;
     transition: 0.2s;
+    flex-direction: column;
+    align-items: center;
 }
 
 .landing1:hover {
-    background-color: #fff;
+    background-image: linear-gradient(to right, #7864FF , #2148E6);
+}
+
+.circle-image {
+    border: 6px solid #7864FF;
+    border-radius: 50%;
+    height: 350px;
+    object-fit: cover;
+    width: 370px;
 }
 
 .title-name {
     animation: kf-color-mix 1s linear infinite alternate;
     font-style: italic;
     font-size: medium;
+    padding-top: 50px;
 }
 
 @keyframes kf-color-mix {
