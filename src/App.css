@@ -1,5 +1,5 @@
 .portfolio-body {
-  background-color: var(--main-color);
+  background-image: linear-gradient(#2148E6 , #7864FF); 
   display: flex;
   flex-direction: column;
   gap: 32px;

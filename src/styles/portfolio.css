@@ -3,15 +3,10 @@
     min-height: 800px;
     color: #EE5E7C;
     padding-top: 5%;
-    background-color: black;
-    font-weight: bold;
+    background-image: linear-gradient(#2148E6 , #7864FF);    font-weight: bold;
     transition: 0.2s;
     flex-direction: column;
     align-items: center;
-}
-
-.landing1:hover {
-    background-image: linear-gradient(to right, #7864FF , #2148E6);
 }
 
 .circle-image {
@@ -25,13 +20,13 @@
 .title-name {
     animation: kf-color-mix 1s linear infinite alternate;
     font-style: italic;
-    font-size: medium;
-    padding-top: 50px;
+    font-size: 40px;
+    padding-top: 40px;
 }
 
 @keyframes kf-color-mix {
-    0% { color: #DF2DA8 }
-    100% { color: #2148E6 }
+    0% { color: red }
+    100% { color: yellow }
 }
 
 .blink {
