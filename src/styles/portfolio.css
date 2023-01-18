@@ -2,6 +2,20 @@
     display: flex;
     min-height: 800px;
     justify-content: center;
-    color: #4D296A;
+    color: #EE5E7C;
     padding-top: 5%;
+    background-color: #A3EFF2;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.landing1:hover {
+    background-color: #4856DE;
+    color: #fff;
+}
+
+.title-name {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0;
 }
