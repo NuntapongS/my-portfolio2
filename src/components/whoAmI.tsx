@@ -11,7 +11,10 @@ const WhoAmI = () => {
     <>
       <div className="portfolio-body">
         <div className="landing1">
-          <div className="title-name">{myIdentity.myName}</div>
+          <div className="title-name">
+            {myIdentity.myName}
+            <span className="blink">|</span>
+          </div>
         </div>
       </div>
     </>

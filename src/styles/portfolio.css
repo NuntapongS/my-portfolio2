@@ -4,18 +4,35 @@
     justify-content: center;
     color: #EE5E7C;
     padding-top: 5%;
-    background-color: #A3EFF2;
+    background-color: black;
     font-weight: bold;
     transition: 0.2s;
 }
 
 .landing1:hover {
-    background-color: #4856DE;
-    color: #fff;
+    background-color: #fff;
 }
 
 .title-name {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 0;
+    animation: kf-color-mix 1s linear infinite alternate;
+    font-style: italic;
+    font-size: medium;
+}
+
+@keyframes kf-color-mix {
+    0% { color: #DF2DA8 }
+    100% { color: #2148E6 }
+}
+
+.blink {
+    animation: blink 1s infinite;
+    font-weight: 200;
+    position: absolute;
+    letter-spacing: 0;
+}
+
+@keyframes blink {
+    0% { opacity: 0; }
+    49% { opacity: 0; }
+    50% { opacity: 1; }
 }
