@@ -13,6 +13,7 @@ const WhoAmI = () => {
       <div className="portfolio-body">
         <div className="landing1">
           <img src={profile1} className="circle-image" alt="profile1" />
+          <div className="greeting">Hello World !</div>
           <div className="title-name">
             {myIdentity.myName}
             <span className="blink">|</span>
