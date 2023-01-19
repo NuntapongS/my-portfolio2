@@ -17,6 +17,12 @@
     width: 370px;
 }
 
+.greeting {
+    font-style: italic;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
 .title-name {
     animation: kf-color-mix 1s linear infinite alternate;
     font-style: italic;
