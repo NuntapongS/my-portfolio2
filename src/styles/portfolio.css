@@ -1,6 +1,6 @@
 .landing1 {
     display: flex;
-    min-height: 800px;
+    min-height: 640px;
     padding-top: 5%;
     background-image: linear-gradient(#2148E6 , #7864FF);    font-weight: bold;
     transition: 0.2s;
