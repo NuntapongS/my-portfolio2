@@ -4,6 +4,7 @@ import "../styles/portfolio.css";
 
 export interface IMyIdentity {
   myName: string;
+  myInterview1: string;
 }
 
 const WhoAmI = () => {
@@ -18,6 +19,7 @@ const WhoAmI = () => {
             {myIdentity.myName}
             <span className="blink">|</span>
           </div>
+          <div className="title-interview">{myIdentity.myInterview1}</div>
         </div>
       </div>
     </>
