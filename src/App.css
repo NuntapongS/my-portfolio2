@@ -5,3 +5,14 @@
   gap: 32px;
   padding: 0 8rem;
 }
+
+.landing1,
+landing2 {
+  display: flex;
+  min-height: 640px;
+  padding-top: 5%;
+  background-image: linear-gradient(#2148E6 , #7864FF);    font-weight: bold;
+  transition: 0.2s;
+  flex-direction: column;
+  align-items: center;
+}
