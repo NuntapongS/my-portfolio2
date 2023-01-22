@@ -5,6 +5,7 @@ import "../styles/portfolio.css";
 export interface IMyIdentity {
   myName: string;
   myInterview1: string;
+  myFrontendSkills: string;
 }
 
 const WhoAmI = () => {
