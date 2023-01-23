@@ -6,6 +6,7 @@ export interface IMyIdentity {
   myName: string;
   myInterview1: string;
   myFrontendSkills: string;
+  myBackendSkills: string;
 }
 
 const WhoAmI = () => {
