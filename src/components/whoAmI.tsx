@@ -5,6 +5,7 @@ import "../styles/portfolio.css";
 export interface IMyIdentity {
   myName: string;
   myInterview1: string;
+  myInterview2: string;
   myFrontendSkills: string;
   myBackendSkills: string;
 }
